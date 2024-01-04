@@ -1,0 +1,218 @@
+/* site.css */
+
+.bd-placeholder-img {
+  font-size: 1.125rem;
+  text-anchor: middle;
+  -webkit-user-select: none;
+  -moz-user-select: none;
+  user-select: none;
+}
+
+@media (min-width: 768px) {
+  .bd-placeholder-img-lg {
+    font-size: 3.5rem;
+  }
+}
+
+.b-example-divider {
+  width: 100%;
+  height: 3rem;
+  background-color: rgba(0, 0, 0, 0.1);
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 1.5em rgba(0, 0, 0, 0.1),
+    inset 0 0.125em 0.5em rgba(0, 0, 0, 0.15);
+}
+
+.b-example-vr {
+  flex-shrink: 0;
+  width: 1.5rem;
+  height: 100vh;
+}
+
+.bi {
+  vertical-align: -0.125em;
+  fill: currentColor;
+}
+
+.nav-scroller {
+  position: relative;
+  z-index: 2;
+  height: 2.75rem;
+  overflow-y: hidden;
+}
+
+.nav-scroller .nav {
+  display: flex;
+  flex-wrap: nowrap;
+  padding-bottom: 1rem;
+  margin-top: -1px;
+  overflow-x: auto;
+  text-align: center;
+  white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
+}
+
+.container {
+  max-width: 960px;
+}
+
+.icon-link > .bi {
+  width: 0.75em;
+  height: 0.75em;
+}
+
+/*
+ * Custom translucent site header
+ */
+
+.site-header {
+  background-color: rgba(82, 19, 19, 0.85);
+  -webkit-backdrop-filter: saturate(180%) blur(20px);
+  backdrop-filter: saturate(180%) blur(20px);
+}
+.site-header a {
+  color: #8e8e8e;
+  transition: color 0.15s ease-in-out;
+}
+.site-header a:hover {
+  color: #fff;
+  text-decoration: none;
+}
+
+/*
+ * Extra utilities
+ */
+
+.flex-equal > * {
+  flex: 1;
+}
+@media (min-width: 768px) {
+  .flex-md-equal > * {
+    flex: 1;
+  }
+}
+
+.boxstyle {
+  text-decoration: none;
+  color: inherit;
+}
+
+/* site.css */
+
+/* Add a general style for the body */
+
+/* Style for the navigation bar */
+.navigation-bar {
+  height: 100%;
+  width: 200px;
+  position: fixed;
+  background-color: rgb(128, 0, 0);
+  overflow-x: hidden;
+  padding-top: 20px;
+  z-index: 1; /* Ensure the navigation bar is on top */
+}
+
+/* Style for navigation links */
+.navigation-bar a {
+  padding: 15px;
+  text-decoration: none;
+  font-size: 18px;
+  color: white;
+  display: block;
+  text-align: center; /* Center the text within the navigation links */
+}
+
+.navigation-bar a:hover {
+  background-color: #555;
+}
+
+/* Style for the unordered list */
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  text-align: center;
+}
+
+/* Style for the content area */
+.content {
+  margin-left: 400px;
+  padding: 50px;
+}
+
+/* Style for the logo image */
+#signature {
+  position: fixed; /* Position the image fixed within the body */
+  top: 20px; /* Adjust the top position as needed */
+  left: 15%; /* Adjust the left position as needed */
+  width: 200px; /* Set the width of the image */
+  height: auto; /* Maintain the aspect ratio */
+  z-index: 2; /* Ensure the logo is on top of the navigation bar */
+}
+
+.current-page {
+  background-color: rgb(98, 95, 94);
+}
+
+/* new CSS */
+.page-title {
+  padding-top: 50px;
+  text-align: center;
+  padding-bottom: 3%;
+}
+
+.page-pic {
+  max-width: 25%;
+  position: fixed;
+  right: 10%;
+  border-radius: 10%;
+}
+
+.page-info-title {
+  margin-left: 150px;
+}
+
+.page-info {
+  margin-left: 180px;
+  padding: 5px;
+  padding-bottom: 30px;
+}
+
+#transportation-contact {
+  margin-left: 20px;
+}
+
+.page-padding {
+  padding: 5px;
+}
+
+.page-indentation {
+  margin-left: 20px;
+}
+
+.nav-signature-pic {
+  padding-top: 5px;
+  width: 60px; /* Set the width of the image */
+  border-radius: 50%;
+  margin-left: 100%;
+}
+
+#title-signature-pic {
+  width: 20%;
+  border-radius: 50%;
+}
+
+#logo-pic {
+  width: 5%;
+  margin-left: 35%;
+}
+
+#logo2-pic {
+  width: 20%;
+}
+
+#footer-style {
+  background-color: rgb(231, 222, 222);
+}
